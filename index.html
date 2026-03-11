@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="rx76d">
+        <meta name="description" content="Personal Website of rx76d">
+        <meta name="robots" content="noimageindex">
+        <title>rx76d</title>
+        <link rel="icon" type="image/png" href="./assets/favicon.png">
+        <link rel="stylesheet" href="./assets/styles.css">
+    </head>
+    <body>
+        <video autoplay muted loop playsinline id="video-bg">
+            <source src="assets/video.mp4" type="video/mp4">
+        </video>
+        
+        <div class="video-overlay"></div>
+
+        <button id="audio-toggle" class="audio-bubble" aria-label="Toggle Audio">
+            <svg id="icon-muted" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <line x1="23" y1="9" x2="17" y2="15"></line>
+                <line x1="17" y1="9" x2="23" y2="15"></line>
+            </svg>
+            <svg id="icon-playing" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+            </svg>
+        </button>
+
+        <div class="content-wrapper">
+            
+            <header class="top-bar">
+                <div class="logo">rx76d<span>Labs</span></div>
+                <nav class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="header-spacer"></div> 
+            </header>
+
+            <main class="snap-container">
+                
+                <section id="home" class="snap-section">
+                    <h1 class="giant-text">RX76D</h1>
+                </section>
+
+                <section id="about" class="snap-section">
+                    <div class="section-content">
+                        <h2 class="glass-heading">01 // ABOUT</h2>
+                        <div class="white-panel">
+                            <p>Hello! I'm rx76d, passionate programmer who likes to learn and explore new technologies, breakthroughs, and innovations.
+                               <blockquote style="position: center; text-align: center;"><b>"Software should always be open source".</b></blockquote>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects" class="snap-section">
+                    <div class="section-content">
+                        <h2 class="glass-heading">02 // PROJECTS</h2>
+                        <div class="glass-grid">
+                            <a href="https://crackleai.onrender.com" target="_blank" class="white-card">
+                                <img src="assets/crackleai.png" alt="Crackle AI">
+                                <div class="card-info">
+                                    <h3>Crackle AI</h3>
+                                    <p>AI chatbot using Gemini API</p>
+                                </div>
+                            </a>
+                            <a href="https://crunklelabs.vercel.app" target="_blank" class="white-card">
+                                <img src="assets/crunklelabs.png" alt="Crunkle Labs">
+                                <div class="card-info">
+                                    <h3>Crunkle labs</h3>
+                                    <p>Landing Page for Crunkle labs - It is a digital agency</p>
+                                </div>
+                            </a>
+                            <a href="https://minigames.infinityfreeapp.com" target="_blank" class="white-card">
+                                <img src="assets/minigames.png" alt="Minigames">
+                                <div class="card-info">
+                                    <h3>Minigames</h3>
+                                    <p>Collection of simple browser-based games, I created using js</p>
+                                </div>
+                            </a>
+                            <a href="https://rudrasworld.infinityfreeapp.com/?i=1" target="_blank" class="white-card">
+                                <img src="assets/rudrasworld.png" alt="Rudra's World">
+                                <div class="card-info">
+                                    <h3>First Portfolio Site</h3>
+                                    <p>My first portfolio website</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="certifications" class="snap-section">
+                    <div class="section-content">
+                        <h2 class="glass-heading">03 // CERTIFICATIONS</h2>
+                        <div class="glass-grid">
+                            <div class="white-card cert-card">
+                                <img src="assets/kaggle.png" alt="Kaggle: Intro to Programming">
+                                <div class="card-info"><h3>Kaggle: Intro to Programming</h3><p>2023</p></div>
+                            </div>
+                            <div class="white-card cert-card">
+                                <img src="assets/openweaverpy.png" alt="OpenWeaver: Basics of Python">
+                                <div class="card-info"><h3>OpenWeaver: Basics of Python</h3><p>2023</p></div>
+                            </div>
+                            <div class="white-card cert-card">
+                                <img src="assets/openweaverht.png" alt="OpenWeaver: Basics Of HTML/CSS">
+                                <div class="card-info"><h3>OpenWeaver: Basics Of HTML/CSS</h3><p>2024</p></div>
+                            </div>
+                            <div class="white-card cert-card">
+                                <img src="assets/hpaibusiness.png" alt="HP: AI for Business">
+                                <div class="card-info"><h3>HP: AI for Business</h3><p>2025</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact" class="snap-section">
+                    <div class="section-content text-center">
+                        <h2 class="glass-heading text-center">04 // CONTACT</h2>
+                        <div class="social-orbs">
+                            <a href="https://github.com/rx76d" target="_blank" class="social-orb github">
+                                <svg viewBox="0 0 24 24" width="30" height="30" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                            <a href="https://x.com/rx76d_" target="_blank" class="social-orb twitter">
+                                <svg viewBox="0 0 24 24" width="30" height="30" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                            </a>
+                            <a href="https://slack.com" target="_blank" class="social-orb slack">
+                                <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor">
+                                    <path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.523-2.522v-2.522h2.523zM15.165 17.688a2.527 2.527 0 0 1-2.523-2.523 2.526 2.526 0 0 1 2.523-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.52H15.165z"/>
+                                </svg>
+                            </a>
+                            <a href="https://gravatar.com/optimistic41dc7f410e" target="_blank" class="social-orb gravatar">
+                                <svg viewBox="0 0 24 24" width="30" height="30" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="snap-section footer-section">
+                    <div class="halftone-glow-text">rx76d</div>
+                </footer>
+
+            </main>
+        </div>
+
+        <script src="./assets/script.js"></script>
+        
+    </body>
+</html>
