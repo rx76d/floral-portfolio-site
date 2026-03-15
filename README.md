@@ -17,9 +17,6 @@ cd floral-portfolio-site
 
 Link = [floral-portfolio-site](https://floral-portfolio-site.ct.ws/)
 
-## Screenshot
-
-
 
 ## License
 
